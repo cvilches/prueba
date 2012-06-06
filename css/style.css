@@ -1,0 +1,341 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*Mi código*/
+
+body{
+	font-size: 15px;
+	color: #999;
+	font-family: Helvetica;
+	background: url(../images/fondo.jpg) repeat;
+}
+
+.contenedor{
+	width: 960px;
+	margin: 0 auto;
+	background: #F6F6F6;
+}
+
+.header{
+	width: 960px;
+	height: 60px;
+	background: #152745;
+}
+
+.logo{
+	background: url(../images/logo.png) no-repeat;
+	width: 200px;
+	height: 133px;
+	display: block;
+	margin-left: 10px;
+	float: left;
+	z-index: 1;
+	position: relative;
+}
+
+.menu ul{
+	padding-top: 24px;
+}
+
+.menu li{
+	float: left;
+	border-right: 1px solid #0A1424;
+	border-left: 1px solid #1B345D;
+}
+
+.menu a{
+	color: #fff;
+	text-decoration: none;
+	padding: 24px 16px 21px 16px;
+}
+
+.menu a:hover{
+	background: #101F38;
+}
+
+.slider{
+	position: relative;
+}
+
+.img_slider1{
+	background: url(../images/slide1.jpg) no-repeat;
+	width: 960px;
+	height: 330px;
+}
+
+.btn{
+	padding: 8px 14px 6px 14px;
+	background: #152745;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	color: #fff;
+	text-decoration: none;
+   	box-shadow: 1px 1px 0 #333;
+   	-webkit-box-shadow: 1px 1px 0 #333;
+   	-moz-box-shadow: 1px 1px 0 #333;
+   	display: inline-block;
+   	font-size: 10px;
+}
+
+.btn:hover{
+	background: #101F38;
+}
+
+.btn_slider{
+	position: absolute;
+   	left: 20px;
+   	bottom: 17px;
+}
+
+.beneficios{
+	overflow: hidden;
+}
+
+.beneficios ul{
+	margin-top: 30px;
+}
+
+.beneficios li{
+	float: left;
+	
+}
+
+.beneficios a{
+	display: block;
+	padding: 20px 60px 20px 60px;
+	background-position: center center;
+}
+
+.beneficios a:hover{
+	background-color: #e2e2e2;
+}
+
+h3{
+	font-size: 18px;
+}
+
+.conoce{
+	margin: 28px 40px 0px 20px;
+}
+
+.flecha{
+	background: url(../images/flecha.png) no-repeat;
+	height: 90px;
+	display: block;
+	width: 31px;
+	margin: 0px 20px 0px 20px;
+}
+
+.restaurat{
+	background: url(../images/restaurant.png) no-repeat;
+	width: 41px;
+	height: 60px;
+}
+
+.hotel{
+	background: url(../images/hotel.png) no-repeat;
+	width: 74px;
+	height: 60px;
+	border-right: 1px solid #d0d0d0;
+	border-left: 1px solid #d0d0d0;
+}
+
+.tienda{
+	background: url(../images/tienda.png) no-repeat;
+	width: 70px;
+	height: 60px;
+}
+
+.members{
+	margin: 30px 0px 60px 0px;
+}
+
+.fono{
+	background: url(../images/fono.png) no-repeat center;
+	width: 164px;
+	height: 101px;
+	padding: 30px 96px 30px 0px;
+	border-right: 1px solid #d0d0d0;
+	float: left;
+}
+
+.rewards{
+	float: left;
+	text-align: right;
+	margin: 0px 80px 0px 60px;
+}
+
+h2{
+	color: #152745;
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+.btn_card{
+	margin-top: 32px;
+}
+
+.img_card{
+	background: url(../images/card.png) no-repeat center;
+	width: 233px;
+	height: 170px;
+	overflow: hidden;
+}
+
+.footer{
+	background: #152745;
+	width: 920px;
+	height: 60px;
+	border-top: 1px solid #2C549B;
+	padding: 20px;
+	color: #fff;
+	font-size: 12px;
+	position: relative;
+	clear: both;
+}
+
+.footer p{
+	margin: 10px 0px 10px 0px;
+}
+
+.footer ul{
+	position: absolute;
+	right: 40px;
+	top: 40px;
+}
+
+.footer li{
+	float: left;
+}
+
+.footer a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.footer a:hover{
+	color: #d0d0d0;
+}
+
+.face span {
+	display: block;
+	margin-left: 48px;
+}
+
+.face{
+    background: url("../images/face.png") no-repeat scroll 0 0 transparent;
+    padding: 8px 0 19px 48px;
+    margin-right: 40px;
+}
+
+.twitter{
+	background: url("../images/twitter.png") no-repeat scroll 0 0 transparent;
+    padding: 8px 0 19px 48px;
+}
+
+.twitter span {
+	display: block;
+	margin-left: 48px;
+}
+
+/*Page2*/
+
+.img_slider2{
+	background: url(../images/slide2.jpg) no-repeat;
+	width: 960px;
+	height: 328px;
+}
+
+.rest{
+	padding: 20px 70px 20px 20px;
+	width: 520px;
+	margin-top: 20px;
+	float: left;
+}
+
+.fono2{
+	background: url(../images/fono2.png) no-repeat center;
+	width: 164px;
+	height: 83px;
+	overflow: hidden;
+	padding: 42px 31px 42px 154px;
+}
+
+.zona{
+	padding: 0px 20px 20px 20px;
+	width: 260px;
+	float: left;
+	margin-bottom: 40px;
+}
+
+.restaurant{
+	margin-top: 30px;
+}
+
+.btn_buscar{
+	margin: 40px 0px 0px 20px;
+}
+
+.detalle{
+	float: left;
+	padding-right: 80px;
+}
+
+.detalle h3{
+	float: left;
+}
+
+.detalle h2{
+	margin-top: 40px;
+}
+
+.mapa{
+	background: url(../images/mapa.jpg) no-repeat center;
+	width: 232px;
+	height: 232px;
+	overflow: hidden;
+	padding-right: 150px;
+}
